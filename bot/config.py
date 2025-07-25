@@ -5,14 +5,14 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # AHCompressBot....
     # sucks Dude
-    APP_ID = 3847632  # Updated with your API ID
-    API_HASH = "1a9708f807ddd06b10337f2091c67657"  # Updated with your API HASH
-    LOG_CHANNEL = -1001955499079  # Updated with your log channel ID
+    APP_ID = '16732227' # Updated with your API ID
+    API_HASH = "8b5594ad7ad37f3a0a7ddbfb3963bb51"  # Updated with your API HASH
+    LOG_CHANNEL = -1002871989925  # Updated with your log channel ID
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
     # Get these values from my.telegram.org
-    AUTH_USERS = {6440253535, 6274275394}
+    AUTH_USERS = {5868426717}
     # auth users jdk 
-    TG_BOT_TOKEN = "6461352205:AAEtbEHVkQgPvRqei_1r5lQQGl0ZzUZQTCw"  # Updated with your bot token
+    TG_BOT_TOKEN = "7141984677:AAFztMNvuW-CYbsM1Ydq0zTZ6OQumWSEHTs"  # Updated with your bot token
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
